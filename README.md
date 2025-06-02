@@ -1,1 +1,1 @@
-`nix init -t github:mochienya/nix-dev-template`
+`nix flake init -t github:mochienya/nix-dev-template`
