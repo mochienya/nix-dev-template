@@ -1,11 +1,9 @@
 {
   description = "Basic dev environment boilerplate";
 
-  inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-  };
+  inputs = {};
 
-  outputs = { self, nixpkgs }: {
+  outputs = { self }: {
     templates.default = {
       description = "Basic dev environment boilerplate";
       path = ./thing;
