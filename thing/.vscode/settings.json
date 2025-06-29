@@ -1,0 +1,12 @@
+{
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.patterns": {
+		"devenv.nix": "devenv.yaml, .envrc"
+	},
+	"files.exclude": {
+		".devenv/": true,
+		".direnv/": true,
+		".devenv.flake.nix": true,
+		"devenv.lock": true
+	}
+}
